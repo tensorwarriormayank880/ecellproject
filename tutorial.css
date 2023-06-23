@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+/* body{
+    height: 2000px;
+} */
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    /* opacity: 0.8; */
+}
+
+.Ecell {
+    text-shadow: 1px 1px white;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(74, 72, 100);
+
+}
+
+.navbar {
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    flex-flow: wrap row;
+    background-color: rgb(74, 72, 100);
+    justify-content: flex-end;
+}
+
+.navbar a {
+    display: flex;
+    font-size: 20px;
+    color: #ededee;
+    text-decoration: none;
+    float: left;
+    font-weight: 500;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.navbar a:hover {
+    /* text-decoration: underline lightseagreen ; */
+    border-bottom: 2px solid lightseagreen;
+    color: lightseagreen;
+}
+
+.navbar li .active a{
+    border-bottom: 2px solid white;
+}
+
+/* #menu-icon{
+    color: white;
+    font-size: 35px;
+    z-index: 1001;
+    cursor: pointer; 
+    display: none;
+} */
+
+.ecell_logo {
+    left: 2px;
+    position: absolute;
+}
+
+.main {
+    /* width: 100%; */
+    max-width: 80VW;
+    margin: auto;
+    padding-top: 50px;
+}
+
+main .blank {
+    /* margin-top: 50px; */
+    background: url(https://res.cloudinary.com/dp92qug2f/image/upload/v1678341425/Ecell%20website/hero%20section/HERO_SECTION-compressed_dhkhdx.webp);
+    /* background-color: #ffffff; */
+    /* max-width: 1000px; */
+    /* height: 150px; */
+    /* position: relative; */
+    /* height: 100%; */
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#collaborating {
+    /* max-width: 80VW;
+    margin: auto; */
+    font-size: 50px;
+    color: rgb(14, 98, 194);
+}
+
+.collaboration {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    /* margin-top: 140px;  */
+}
+
+.underline{
+    border: 1px solid rgb(14, 98, 194);
+}
+
+/* p{
+    margin-left: 150px;
+    margin-right: 150px;
+} */
+
+.company {
+    /* max-width: 80VW;
+    margin: auto; */
+    margin: 5px 5px 5px 5px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    background-color: transparent;
+}
+
+/* #companies{
+    flex: none;
+    margin-left: 150px;
+    margin-right: 150px;
+} */
+
+.images {
+    position: relative;
+    /* flex-flow: wrap row; */
+    width: 118px;
+    height: 70px;
+    /* margin-left: 150px;
+     margin-right: 150px; */
+}
+
+#companies button {
+    /* max-width: 80VW;
+    margin: auto; */
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    font-weight: 900;
+}
+
+#aboutus {
+    margin-top: 50px;
+    padding-top: 25px;
+    font-family: monospace;
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    color: rgb(14, 98, 194);
+}
+
+.about {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 25px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    clear: both;
+    flex-direction: column;
+    letter-spacing: 3px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    background-color: white;
+}
+
+.section-contact {
+    padding-top: 35px;
+}
+
+h2 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    /* border: 1px solid #ccc; */
+    /* border-radius: 4px; */
+}
+
+textarea {
+    height: 100px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+footer{
+    margin-top: 50px;
+    /* padding-top: 30px; */
+    background: #050028;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+    font-size: 16px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* flex-direction: column; */
+    flex-flow: wrap row;
+    width: 100%;
+}
+#footersection .section-1 h1{
+    font-size: 50px;
+}
+
+.footerlogo{
+    max-width: 160px;
+    max-width: 80px;
+}
+
+.title{
+    color: white;
+    margin: auto;
+    margin-left: 12px;
+    text-align: center;
+    justify-content: center;
+    /* display: block; */
+    text-decoration: none;
+}
+
+.socials li{
+    padding: 5px;
+    list-style: none;
+}
+
+.socials li a{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+}
+
+.socials .bx{
+    position: relative;
+    width: 8px;
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #00abf0;
+    text-decoration: none;
+}
+
+.socials .bx:hover{
+     color: beige;
+     border:3px solid white ;
+     border: 50%;
+}
+
+.organisation li{
+    color: white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    list-style: none;
+    margin: 10px;
+}
+
+.organisation li a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f9f9f9;
+    flex-direction: row;
+    text-decoration: none;
+    /* margin-left: 2px; */
+}
+
+.fa-solid{
+    font-size: 25px;
+}
+
+.copyright{
+    background-color: #050028;
+    color: white;
+    padding: 25px;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+}
