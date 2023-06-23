@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.mainheading{
+    /* background-image: url(https://res.cloudinary.com/dp92qug2f/image/upload/v1685002602/gallery-ecell-website/WhatsApp_Image_2023-05-25_at_13.43.47_st4qdy.webp); */
+    background-size: 50% 100%;
+    /* position: relative; */
+    background-color: orange;
+    height: 30vw;
+    background-repeat: no-repeat;
+
+}
+
+.mainheading h1{
+    font-size: 70px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    padding-top: 160px;
+    /* margin-left: 15.4rem; */
+    /* width: 50%; */
+}
+
+.gall{
+    color: yellow;
+}
+
+.ery{
+    color: white;
+}
+
+.gallery{
+    display: flex;
+    /* margin-top: 55px; */
+    width: 100%;
+    /* height: 30vh; */
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box{
+   margin: 10px;
+}
+
+.box img{
+    width: 340px;
+    height: 340px;
+    
+}
+
+footer{
+    margin-top: 50px;
+    /* padding-top: 30px; */
+    background: #050028;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+    font-size: 16px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* flex-direction: column; */
+    flex-flow: wrap row;
+    width: 100%;
+}
+#footersection .section-1 h1{
+    font-size: 50px;
+}
+
+.footerlogo{
+    max-width: 160px;
+    max-width: 80px;
+}
+
+.title{
+    color: white;
+    margin: auto;
+    margin-left: 12px;
+    text-align: center;
+    justify-content: center;
+    /* display: block; */
+    text-decoration: none;
+}
+
+.socials li{
+    padding: 5px;
+    list-style: none;
+}
+
+.socials li a{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+}
+
+.socials .bx{
+    position: relative;
+    width: 8px;
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #00abf0;
+    text-decoration: none;
+}
+
+.socials .bx:hover{
+     color: beige;
+     border:3px solid white ;
+     border: 50%;
+}
+
+.organisation li{
+    color: white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    list-style: none;
+    margin: 10px;
+}
+
+.organisation li a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f9f9f9;
+    flex-direction: row;
+    text-decoration: none;
+    /* margin-left: 2px; */
+}
+
+.fa-solid{
+    font-size: 25px;
+}
+
+.copyright{
+    background-color: #050028;
+    color: white;
+    padding: 25px;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+}
