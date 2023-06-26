@@ -120,7 +120,7 @@ main .blank {
     text-align: center;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    overflow: scroll;
     align-items: center;
     position: relative;
     background-color: transparent;
